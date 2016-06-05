@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+       <ImageView 
+       android:layout_height="20dp"
+       android:layout_width="fill_parent"
+       android:src="@drawable/find_find"
+       android:layout_marginTop="50dp"
+  />
+   <GridView 
+       android:id="@+id/mGridView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:horizontalSpacing="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginTop="40dp"
+       android:numColumns="2"
+       android:verticalSpacing="20dp"
+       android:stretchMode="columnWidth">
+   </GridView>
+</LinearLayout>

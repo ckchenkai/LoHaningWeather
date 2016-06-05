@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg_fine_night">
+
+
+
+    <com.ck.weather.widget.TouchDispatchView
+        android:id="@+id/touch_intercept_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent" >
+
+  
+         <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            android:id="@+id/mPullRefreshScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:scrollbars="none" 
+            android:overScrollMode="never">
+		   <LinearLayout 
+            android:layout_height="wrap_content"
+    	    android:layout_width="fill_parent"
+    	    android:orientation="vertical"> 
+    	    <LinearLayout
+    	    android:id="@+id/layout_weather"
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content" 
+    	    android:layout_marginBottom="54.0dip"> 
+    	    <include 
+    	    	android:layout_height="wrap_content"
+    	    	android:layout_width="wrap_content"
+    	    	layout="@layout/weather_current_condition"/>
+    	    </LinearLayout>
+    	<include 
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content"
+    	    layout="@layout/weather_more_condition"/>
+    	<include 
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content"
+    	    layout="@layout/weather_cardview"/>
+    	<include 
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content"
+    	    layout="@layout/weather_index"
+    	    android:layout_marginBottom="60.0dip"
+    	    android:layout_marginRight="10dp"
+   		    android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+           
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    </com.ck.weather.widget.TouchDispatchView>
+
+</RelativeLayout>

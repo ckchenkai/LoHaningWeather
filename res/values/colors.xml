@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#8DB6CD</color>
+    <color name="dark_blue">#2894FF</color>
+    <color name="dark_blue2">#552894FF</color>
+    <color name="yinse">#878787</color>
+    <color name="location">#8B5742</color>
+    <color name="grey">#838B8B</color>
+    <color name="hao">#3ec06c</color>
+    <color name="liang">#d7af0c</color>
+    <color name="cha">#d67503</color>
+    <color name="tab">#32CD32</color>
+    <color name="default_c">#8A8A8A</color>
+    <color name="red">#FF0000</color>
+    <color name="light_red">#55FF0000</color>
+    <color name="light_grey">#EDEDED</color> 
+   <color name="light_green">#BCEE68</color>
+   <color name="stroke">#C5C1AA</color>
+   <color name="light_white">#33FFFFFF</color>
+ 
+</resources>

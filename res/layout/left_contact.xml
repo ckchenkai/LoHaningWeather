@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+>
+
+    <TextView
+        android:id="@+id/time_show"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="time" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+       />
+     <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="TextView" 
+        android:src="@drawable/client"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/time_show"/>
+    <TextView
+        android:layout_toRightOf="@id/left_image"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@drawable/s2"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp" 
+        android:layout_marginRight="60dp"
+        android:layout_below="@id/time_show"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+         />
+
+</RelativeLayout>

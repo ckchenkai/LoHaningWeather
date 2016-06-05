@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+     >
+
+<RelativeLayout
+    	android:id="@+id/rl_locate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/friendactivity_comment_detail_list2" >
+
+         <ImageView 
+        android:id="@+id/iv_image2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ask"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+         />
+    
+    <TextView
+        android:id="@+id/dingwei_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+		android:text=""
+		android:textColor="@color/location"
+		android:gravity="center"
+		android:layout_toRightOf="@id/iv_image2"
+		android:layout_centerVertical="true"/>
+    
+           <ImageView 
+        android:id="@+id/bt_remove2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/remove"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+         />
+    </RelativeLayout>
+    <View 
+        android:layout_height="0.1dp"
+        android:layout_width="fill_parent"
+        android:background="@android:color/white"/>
+    <com.ck.weather.activity.SlideCutListView
+        android:id="@+id/listView"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:dividerHeight="0.1dp"
+        android:cacheColorHint="@android:color/transparent" 
+        android:listSelector="@android:color/transparent"
+         >
+    </com.ck.weather.activity.SlideCutListView>
+  <TextView 
+      android:id="@+id/text_i"
+       android:layout_width="fill_parent"
+       android:layout_height="40dp"
+       android:text="左右滑动删除"
+       android:textColor="@android:color/holo_red_light"
+       android:gravity="center"/>
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1">
+       <ImageView 
+           android:id="@+id/addLocation"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:layout_centerInParent="true"
+           android:src="@drawable/a6b"
+           android:scaleType="fitCenter"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+   </RelativeLayout>
+</LinearLayout>

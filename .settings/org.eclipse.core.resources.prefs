@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/ck/weather/activity/FirstTimeInActivity.java=UTF-8
+encoding//src/com/ck/weather/category/Basic.java=UTF-8
+encoding//src/com/ck/weather/category/ChuanYi.java=UTF-8
+encoding//src/com/ck/weather/category/FangShai.java=UTF-8
+encoding//src/com/ck/weather/category/Forecast.java=UTF-8
+encoding//src/com/ck/weather/category/GanMao.java=UTF-8
+encoding//src/com/ck/weather/category/History.java=UTF-8
+encoding//src/com/ck/weather/category/LiangShai.java=UTF-8
+encoding//src/com/ck/weather/category/Today.java=UTF-8
+encoding//src/com/ck/weather/category/Weather.java=UTF-8
+encoding//src/com/ck/weather/category/XiChe.java=UTF-8
+encoding//src/com/ck/weather/category/YunDong.java=UTF-8
+encoding//src/com/ck/weather/util/Locate.java=UTF-8

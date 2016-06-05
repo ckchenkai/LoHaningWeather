@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/light_grey">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/background_border2"
+        android:layout_marginTop="8dp">
+         
+        <ImageView
+             android:id="@+id/iv_id"
+             android:layout_height="fill_parent"
+             android:layout_weight="0.2"
+             android:layout_width="0dp"
+             android:src="@drawable/edittext_icon_man"
+             android:layout_marginRight="5dp"
+             android:layout_marginLeft="15dp"/>
+        
+        <EditText 
+            android:id="@+id/et_id"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.7"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+             android:background="@null"
+            android:singleLine="true"
+            android:maxLength="15"
+            android:hint="请输入准考证号"
+            android:inputType="number"
+            android:textSize="17dp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/light_grey"/>
+         <ImageView
+             android:id="@+id/clear_id"
+             android:layout_height="fill_parent"
+             android:layout_weight="0.2"
+             android:layout_width="0dp"
+             android:src="@drawable/clear_input"
+             android:layout_marginRight="5dp"
+             android:visibility="invisible"/>
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/background_border2"
+        android:layout_marginTop="0.1dp">
+         
+        <ImageView
+             android:id="@+id/iv_name"
+             android:layout_height="fill_parent"
+             android:layout_weight="0.2"
+             android:layout_width="0dp"
+             android:src="@drawable/edittext_icon_psw"
+             android:layout_marginRight="5dp"
+             android:layout_marginLeft="15dp"/>
+        
+        <EditText 
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.7"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="请输入姓名前两个字"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/light_grey"/>
+         <ImageView
+             android:id="@+id/clear_name"
+             android:layout_height="fill_parent"
+             android:layout_weight="0.2"
+             android:layout_width="0dp"
+             android:src="@drawable/clear_input"
+             android:layout_marginRight="5dp"
+             android:visibility="invisible"/>
+    </LinearLayout>
+   
+    <TextView 
+        android:id="@+id/tv_check"
+        android:layout_height="20dp"
+        android:layout_width="fill_parent"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"/>
+    
+     <Button 
+         android:id="@+id/queryB"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_centerInParent="true"
+         android:layout_marginTop="10dp"
+         android:text="查询"
+         android:gravity="center"
+         android:layout_gravity="center_horizontal"
+         android:textColor="@android:color/white"
+         android:background="@drawable/bg_button_circle"
+         />
+    
+
+     
+    
+    
+     
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/friendactivity_comment_detail_list2" >
+
+         <ImageView 
+        android:id="@+id/action_back_s"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ac1"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+         />
+    
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+		android:text="添加城市"
+		android:textColor="@color/location"
+		android:gravity="center"
+		android:textSize="20dp"
+		android:layout_centerInParent="true"/>
+    
+       
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+ <!-- 。。。第一个 -->  
+ <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ProgressBar 
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/> 
+ </RelativeLayout>
+ 
+ <!-- 。。。第二个 -->  
+<LinearLayout 
+    android:id="@+id/linear_layout" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="invisible"
+  >
+
+    <LinearLayout 
+       android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="vertical" 
+      android:layout_margin="10dp"
+      android:background="@drawable/bg_grey" > 
+   <RelativeLayout 
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="1dp"
+       android:layout_marginTop="6dp"
+       android:layout_marginLeft="1dp"
+       android:layout_marginRight="1dp"
+        >
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="30dp"
+        android:src="@drawable/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+   </RelativeLayout>
+   
+   
+   <RelativeLayout 
+      android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="1dp"
+       android:layout_marginLeft="1dp"
+       android:layout_marginRight="1dp"
+       android:background="@android:color/white">
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="30dp"
+        android:src="@drawable/school"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/tv_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/location"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+   </RelativeLayout>
+   
+   
+   <RelativeLayout 
+      android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="1dp"
+       android:layout_marginLeft="1dp"
+       android:layout_marginRight="1dp"
+       android:background="@android:color/white">
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="30dp"
+        android:src="@drawable/type"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/location"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+   </RelativeLayout>
+   
+   
+   
+   <RelativeLayout 
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="1dp"
+       android:layout_marginLeft="1dp"
+       android:layout_marginRight="1dp">
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="30dp"
+        android:src="@drawable/edittext_icon_psw"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+   </RelativeLayout>
+   </LinearLayout>
+   
+   <LinearLayout 
+       android:layout_height="0dp"
+       android:layout_weight="1.5"
+       android:layout_width="fill_parent"
+       android:orientation="vertical"
+       android:background="@android:color/white"
+       android:layout_marginBottom="20dp">
+   <TextView 
+       android:id="@+id/tv_allgread"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="10dp"
+       android:gravity="center"
+       android:background="@drawable/one_left_border"/>
+    <TextView 
+       android:id="@+id/tv_tingli"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="10dp"
+       android:gravity="center"
+       />
+     <TextView 
+       android:id="@+id/tv_yuedu"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="10dp"
+       android:gravity="center"
+      />
+      <TextView 
+       android:id="@+id/tv_xiezuo"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="10dp"
+       android:gravity="center"
+       />
+      </LinearLayout>
+</LinearLayout>
+</FrameLayout>
